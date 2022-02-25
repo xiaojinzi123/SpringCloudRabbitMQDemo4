@@ -1,0 +1,13 @@
+server:
+  port: 8087
+  servlet:
+    context-path: /client1
+spring:
+  application:
+    name: service-client1
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    virtual-host: /
+    username: user
+    password: 123
